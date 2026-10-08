@@ -1,353 +1,156 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#101c2b">
   <title>Privacy Policy | LifeNest Docs</title>
-
   <style>
     :root {
-      --navy: #102d3d;
-      --teal: #087e83;
-      --background: #f3f8f8;
-      --text: #344553;
+      color-scheme: dark;
+      --bg: #101c2b;
+      --card: #192b3d;
+      --text: #f2f6fa;
+      --muted: #b4c4d2;
+      --accent: #43c4b2;
+      --border: #30465b;
     }
-
     * { box-sizing: border-box; }
-
     body {
       margin: 0;
-      background: var(--background);
+      background: var(--bg);
       color: var(--text);
-      font: 16px/1.75 -apple-system, BlinkMacSystemFont,
-            "Segoe UI", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
     }
-
     header {
-      padding: 56px 20px;
       text-align: center;
-      background: linear-gradient(135deg, var(--navy), var(--teal));
-      color: white;
+      padding: 58px 20px 38px;
+      background: linear-gradient(135deg, #17354a, #176b69);
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 34px;
+    header h1 { margin: 0; font-size: 2.3rem; }
+    main { max-width: 850px; margin: auto; padding: 30px 20px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
     }
-
-    header p {
-      margin: 8px 0 0;
-      opacity: .9;
-    }
-
-    main {
-      max-width: 850px;
-      margin: -20px auto 40px;
-      padding: 35px;
-      background: white;
-      border-radius: 18px;
-      box-shadow: 0 8px 30px rgba(16,45,61,.08);
-      position: relative;
-    }
-
-    h2 {
-      color: var(--navy);
-      font-size: 21px;
-      margin-top: 32px;
-    }
-
-    a {
-      color: var(--teal);
-    }
-
+    h2 { color: var(--accent); margin-top: 0; }
+    a { color: var(--accent); }
     footer {
       text-align: center;
-      padding: 25px;
-      font-size: 14px;
-    }
-
-    footer a {
-      margin: 0 10px;
-    }
-
-    @media (max-width: 600px) {
-      main {
-        margin: 0 12px 25px;
-        padding: 24px;
-      }
+      color: var(--muted);
+      padding: 30px;
+      font-size: .9rem;
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <h1>LifeNest Docs</h1>
-  <p>Privacy Policy</p>
+  <h1>Privacy Policy</h1>
+  <p>LifeNest Docs</p>
+  <p>Effective Date: October 8, 2026</p>
 </header>
 
 <main>
 
-  <p><strong>Effective Date:</strong> October 5, 2026</p>
+  <section>
+    <h2>1. Introduction</h2>
+    <p>LifeNest Docs is developed by Joshua Marcum. We respect your privacy and aim to provide a document organizer that keeps your personal information under your control.</p>
+    <p>This policy explains how LifeNest Docs handles documents, device permissions, purchases, and support communications.</p>
+  </section>
 
-  <p>
-    LifeNest Docs is designed to help you scan, store, search,
-    organize, and manage important personal documents while
-    keeping you in control of your information. This Privacy
-    Policy explains how LifeNest Docs handles information when
-    you use the application.
-  </p>
+  <section>
+    <h2>2. Document Storage</h2>
+    <p>Documents, imported files, scanned images, notes, categories, and associated metadata are stored locally within the application's storage on your device.</p>
+    <p>LifeNest Docs does not require an account or upload your document library to a developer-operated server as part of its normal document management functionality.</p>
+    <p>Files exported or shared by you may be handled by other applications or storage providers according to their own privacy practices.</p>
+  </section>
 
-  <h2>1. Information You Add</h2>
+  <section>
+    <h2>3. Text Recognition and Search</h2>
+    <p>LifeNest Docs uses Apple's Vision framework for text recognition. Recognized text is used to help you search your saved documents.</p>
+    <p>Document text recognition is performed on your device through the application's implemented recognition workflow.</p>
+  </section>
 
-  <p>
-    LifeNest Docs allows you to create, scan, import, and organize
-    documents and related information. This may include document
-    images, PDF files, document titles, categories, tags, notes,
-    issue dates, expiration dates, reminders, and other information
-    you choose to provide.
-  </p>
+  <section>
+    <h2>4. Camera and Files Access</h2>
+    <p>Camera access is used when you choose to scan or photograph a document.</p>
+    <p>File access is used when you choose to import documents, export backups, or restore files.</p>
+    <p>These permissions and file selections are used to provide the features you request.</p>
+  </section>
 
-  <p>
-    The contents of documents you choose to store may contain
-    personal or sensitive information. You control which documents
-    are added to the application.
-  </p>
+  <section>
+    <h2>5. Face ID and Device Authentication</h2>
+    <p>LifeNest Docs can use Apple's LocalAuthentication framework to protect access to the app.</p>
+    <p>Biometric verification is managed by iOS. LifeNest Docs does not receive or store your Face ID biometric data.</p>
+  </section>
 
-  <h2>2. Local Document Storage</h2>
+  <section>
+    <h2>6. Notifications</h2>
+    <p>If you enable notifications, LifeNest Docs can schedule local reminders for document expiration dates.</p>
+    <p>You may change notification permissions through your device settings.</p>
+  </section>
 
-  <p>
-    LifeNest Docs is designed to store your documents and related
-    application information locally on your device. The application
-    does not require a LifeNest Docs account and does not use a
-    developer-hosted server to upload or store your documents.
-  </p>
+  <section>
+    <h2>7. In-App Purchases</h2>
+    <p>LifeNest Docs offers an optional one-time Pro purchase to unlock unlimited document storage.</p>
+    <p>Purchases are processed by Apple through the App Store and StoreKit. LifeNest Docs uses purchase entitlement information to determine whether Pro features are unlocked.</p>
+    <p>We do not directly receive your full payment card details through the app.</p>
+  </section>
 
-  <p>
-    Stored document attachments and application data use available
-    iOS file-protection features. However, no storage system can
-    guarantee absolute security.
-  </p>
+  <section>
+    <h2>8. Analytics, Advertising, and Tracking</h2>
+    <p>The current LifeNest Docs application code does not implement third-party advertising SDKs, developer-operated analytics collection, or cross-app advertising tracking.</p>
+    <p>Apple may independently process App Store purchases, diagnostics, and other platform information under Apple's own policies and your device settings.</p>
+  </section>
 
-  <p>
-    Your device's operating system, backup configuration, and
-    services you choose to use may affect whether application
-    information is included in device or system backups.
-  </p>
+  <section>
+    <h2>9. Backup and Export Security</h2>
+    <p>LifeNest Docs allows you to export a ZIP backup containing your document records and attachments.</p>
+    <p><strong>Exported ZIP backups are not encrypted or password-protected by LifeNest Docs.</strong> Anyone with access to an exported backup may be able to view its contents.</p>
+    <p>You are responsible for choosing a secure storage location and managing copies of exported documents.</p>
+  </section>
 
-  <h2>3. Camera, Document Scanner, Photos, and Files</h2>
+  <section>
+    <h2>10. Data Retention and Deletion</h2>
+    <p>Your documents remain in the app's local storage until you delete them, restore another library, or remove the app and its associated local data.</p>
+    <p>Deleting a document through the app removes its record and associated managed attachment. Copies you previously exported or shared are not automatically deleted.</p>
+    <p>Device backups and external storage services may retain copies according to their own settings and policies.</p>
+  </section>
 
-  <p>
-    With your permission or at your direction, LifeNest Docs may
-    access your device camera, document scanner, selected images,
-    or files so that you can scan, photograph, or import documents.
-  </p>
+  <section>
+    <h2>11. Support Communications</h2>
+    <p>If you contact us by email, we receive the information you choose to include, such as your email address and message. We use this information to respond to your support request.</p>
+    <p>Please avoid emailing sensitive identification, financial, or medical documents unless necessary.</p>
+  </section>
 
-  <p>
-    This access is used to provide the document-management
-    functionality you request.
-  </p>
+  <section>
+    <h2>12. Children's Privacy</h2>
+    <p>LifeNest Docs is a general-purpose document organization application and is not specifically directed toward children.</p>
+    <p>We do not knowingly collect children's personal information through a developer-operated account system.</p>
+  </section>
 
-  <h2>4. Document Text Recognition and Keyword Search</h2>
+  <section>
+    <h2>13. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy as the application evolves. Updates will be reflected on this page with a revised effective date when appropriate.</p>
+  </section>
 
-  <p>
-    LifeNest Docs may use on-device text recognition, commonly
-    referred to as OCR, to recognize text contained in supported
-    scanned and imported documents.
-  </p>
-
-  <p>
-    Recognized text allows LifeNest Docs to make your documents
-    searchable. You can search using information such as document
-    titles, notes, tags, categories, and keywords recognized within
-    document contents.
-  </p>
-
-  <p>
-    Document text recognition is performed using functionality
-    available on your device. Recognized document text and search
-    information are stored locally as part of the application's
-    document index. LifeNest Docs does not send your document
-    contents or recognized text to a developer-hosted server for
-    OCR processing.
-  </p>
-
-  <p>
-    Text recognition is automated and may not recognize every word
-    accurately.
-  </p>
-
-  <h2>5. Face ID and Device Authentication</h2>
-
-  <p>
-    LifeNest Docs offers an optional App Lock feature. If enabled,
-    the application uses Apple's device-owner authentication
-    functionality, which may include Face ID, Touch ID, or your
-    device passcode depending on your device and settings.
-  </p>
-
-  <p>
-    LifeNest Docs does not receive or store your Face ID or
-    Touch ID biometric data.
-  </p>
-
-  <h2>6. Notifications and Reminders</h2>
-
-  <p>
-    With your permission, LifeNest Docs may schedule local
-    notifications for document expiration dates and reminders.
-  </p>
-
-  <p>
-    Notification permissions can be changed through your device's
-    iOS Settings.
-  </p>
-
-  <h2>7. In-App Purchases</h2>
-
-  <p>
-    LifeNest Docs offers an optional LifeNest Docs Pro lifetime
-    unlock that removes the free document limit.
-  </p>
-
-  <p>
-    Purchases are processed through Apple's App Store using
-    Apple's StoreKit services. The developer does not receive
-    your full payment card information.
-  </p>
-
-  <h2>8. Backup and Export</h2>
-
-  <p>
-    LifeNest Docs allows you to create a backup containing your
-    locally stored document information and attachments.
-  </p>
-
-  <p>
-    Backups are created only when you request them. A LifeNest Docs
-    backup may contain your document index as well as stored PDFs,
-    images, recognized document text, and related document
-    information.
-  </p>
-
-  <p>
-    You can choose to save or share a backup using the iOS share
-    sheet. Once you export a backup from LifeNest Docs, the storage,
-    security, privacy, and subsequent handling of that backup depend
-    on the application, service, device, or location you choose.
-  </p>
-
-  <p>
-    Because backups may contain sensitive documents, you should
-    store exported backups in a location you trust.
-  </p>
-
-  <h2>9. Sharing Individual Documents</h2>
-
-  <p>
-    LifeNest Docs allows you to share or export document attachments
-    using the iOS share sheet.
-  </p>
-
-  <p>
-    LifeNest Docs does not control how another application or
-    service handles information after you choose to share it.
-  </p>
-
-  <h2>10. Data Retention and Deletion</h2>
-
-  <p>
-    Documents remain stored by the application until you delete
-    them, remove the application, or otherwise remove application
-    data.
-  </p>
-
-  <p>
-    You can delete individual documents within LifeNest Docs.
-    Deleting a document also removes its associated locally stored
-    attachment from the application's document storage.
-  </p>
-
-  <p>
-    Deleting LifeNest Docs generally removes its locally stored
-    application data from the device, subject to iOS backup,
-    restoration, and system behavior.
-  </p>
-
-  <p>
-    We strongly recommend maintaining independent backups of
-    important documents.
-  </p>
-
-  <h2>11. Security</h2>
-
-  <p>
-    LifeNest Docs uses available iOS security functionality,
-    including iOS file protection for stored application data
-    and optional device authentication.
-  </p>
-
-  <p>
-    LifeNest Docs is not an end-to-end encrypted cloud vault,
-    and no application or storage method can guarantee absolute
-    security.
-  </p>
-
-  <p>
-    We recommend protecting your device with a strong passcode,
-    enabling appropriate device security features, keeping iOS
-    updated, and maintaining secure backups of important records.
-  </p>
-
-  <h2>12. Third-Party Services</h2>
-
-  <p>
-    LifeNest Docs relies on Apple-provided platform functionality
-    for features such as in-app purchases, device authentication,
-    document scanning, notifications, file selection, and sharing.
-  </p>
-
-  <p>
-    When you intentionally share, export, or save information to
-    another application or service, that service's privacy practices
-    may apply.
-  </p>
-
-  <h2>13. Children's Privacy</h2>
-
-  <p>
-    LifeNest Docs is not specifically designed for children under
-    13 and does not knowingly solicit personal information from
-    children.
-  </p>
-
-  <h2>14. Changes to This Privacy Policy</h2>
-
-  <p>
-    This Privacy Policy may be updated when LifeNest Docs
-    functionality or applicable requirements change. Updates will
-    be published on this page with an updated effective date when
-    appropriate.
-  </p>
-
-  <h2>15. Contact</h2>
-
-  <p>
-    Questions about this Privacy Policy can be sent to:
-    <a href="mailto:josh.swift.dev@gmail.com">
-      josh.swift.dev@gmail.com
-    </a>
-  </p>
+  <section>
+    <h2>14. Contact</h2>
+    <p>Developer: Joshua Marcum</p>
+    <p>Email: <a href="mailto:josh.swift.dev@gmail.com">josh.swift.dev@gmail.com</a></p>
+    <p><a href="support.html">Support</a> | <a href="terms.html">Terms of Use</a></p>
+  </section>
 
 </main>
 
 <footer>
-  <a href="privacy.html">Privacy</a>
-  <a href="support.html">Support</a>
-  <a href="terms.html">Terms</a>
-
-  <p>&copy; 2026 LifeNest Docs. All rights reserved.</p>
+  &copy; 2026 Joshua Marcum. All rights reserved.
 </footer>
 
 </body>
