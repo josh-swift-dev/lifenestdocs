@@ -1,339 +1,141 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#101c2b">
+  <meta name="description" content="LifeNest Docs support and frequently asked questions.">
   <title>Support | LifeNest Docs</title>
-
   <style>
     :root {
-      --navy: #102d3d;
-      --teal: #087e83;
-      --background: #f3f8f8;
-      --text: #344553;
+      color-scheme: dark;
+      --bg: #101c2b;
+      --card: #192b3d;
+      --text: #f2f6fa;
+      --muted: #b4c4d2;
+      --accent: #43c4b2;
+      --border: #30465b;
     }
-
     * { box-sizing: border-box; }
-
     body {
       margin: 0;
-      background: var(--background);
+      background: var(--bg);
       color: var(--text);
-      font: 16px/1.75 -apple-system, BlinkMacSystemFont,
-            "Segoe UI", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
     }
-
     header {
-      padding: 56px 20px;
       text-align: center;
-      background: linear-gradient(135deg, var(--navy), var(--teal));
-      color: white;
+      padding: 58px 20px 38px;
+      background: linear-gradient(135deg, #17354a, #176b69);
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 34px;
+    header h1 { margin: 0; font-size: 2.3rem; }
+    header p { color: #e0eeee; }
+    main { max-width: 850px; margin: auto; padding: 30px 20px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
     }
-
-    header p {
-      margin: 8px 0 0;
-      opacity: .9;
-    }
-
-    main {
-      max-width: 850px;
-      margin: -20px auto 40px;
-      padding: 35px;
-      background: white;
-      border-radius: 18px;
-      box-shadow: 0 8px 30px rgba(16,45,61,.08);
-      position: relative;
-    }
-
-    h2 {
-      color: var(--navy);
-      font-size: 21px;
-      margin-top: 32px;
-    }
-
-    .contact {
-      margin-top: 35px;
-      padding: 25px;
-      background: #e8f5f4;
-      border-radius: 14px;
-      text-align: center;
-    }
-
+    h2 { color: var(--accent); margin-top: 0; }
+    a { color: var(--accent); }
     .button {
       display: inline-block;
-      padding: 12px 25px;
-      margin-top: 10px;
-      background: var(--teal);
-      color: white;
-      border-radius: 9px;
+      padding: 12px 20px;
+      background: var(--accent);
+      color: #10202c;
+      border-radius: 10px;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: bold;
     }
-
-    a {
-      color: var(--teal);
-    }
-
-    .button {
-      color: white;
-    }
-
     footer {
       text-align: center;
-      padding: 25px;
-      font-size: 14px;
-    }
-
-    footer a {
-      margin: 0 10px;
-    }
-
-    @media (max-width: 600px) {
-      main {
-        margin: 0 12px 25px;
-        padding: 24px;
-      }
+      color: var(--muted);
+      padding: 30px;
+      font-size: .9rem;
     }
   </style>
 </head>
-
 <body>
 
 <header>
   <h1>LifeNest Docs</h1>
   <p>Support Center</p>
+  <p>Your important documents, organized in one place.</p>
 </header>
 
 <main>
 
-  <h2>Welcome to LifeNest Docs Support</h2>
+  <section>
+    <h2>Contact Support</h2>
+    <p>Need help with LifeNest Docs? We're happy to assist with app functionality, purchases, document scanning, and troubleshooting.</p>
+    <p><a class="button" href="mailto:josh.swift.dev@gmail.com?subject=LifeNest%20Docs%20Support">Email Support</a></p>
+    <p>Email: josh.swift.dev@gmail.com</p>
+  </section>
 
-  <p>
-    LifeNest Docs helps you scan, organize, search, and keep track
-    of important personal documents. You'll find answers to common
-    questions below.
-  </p>
+  <section>
+    <h2>Frequently Asked Questions</h2>
 
-  <h2>How do I add a document?</h2>
+    <h3>Is LifeNest Docs free?</h3>
+    <p>Yes. You can save up to 7 documents for free. LifeNest Docs Pro unlocks unlimited documents with a one-time $1.99 purchase. There is no subscription.</p>
 
-  <p>
-    Open LifeNest Docs and select <strong>Add a document</strong>.
-    Enter a title and choose the appropriate category.
-  </p>
+    <h3>How do I unlock unlimited documents?</h3>
+    <p>Open the Settings tab and select the Pro upgrade option. Follow the App Store purchase instructions.</p>
 
-  <p>
-    You can scan a document using the built-in document scanner,
-    import a supported PDF or image, or photograph a document
-    using your device's camera.
-  </p>
+    <h3>How do I restore my purchase?</h3>
+    <p>Open Settings and select Restore Purchases. Make sure you are using the Apple Account associated with the original purchase.</p>
 
-  <h2>Can I scan multi-page documents?</h2>
+    <h3>How do I scan a document?</h3>
+    <p>Tap Add a Document, choose Scan Document to PDF, capture your document, adjust the crop area when prompted, and save your scan. You can combine multiple pages into one PDF.</p>
 
-  <p>
-    Yes. The built-in document scanner supports multiple pages.
-    The scanned pages are combined into a PDF and saved as a
-    single LifeNest Docs document.
-  </p>
+    <h3>Can I import existing files?</h3>
+    <p>Yes. LifeNest Docs supports importing PDF files and common image formats, including JPG, PNG, and HEIC.</p>
 
-  <h2>How many documents can I save for free?</h2>
+    <h3>How do expiration reminders work?</h3>
+    <p>Add an expiration date to a document and choose a reminder interval. Allow notifications in iOS Settings to receive alerts. Notification delivery is subject to your device settings.</p>
 
-  <p>
-    The free version of LifeNest Docs allows you to save up to
-    <strong>7 documents</strong>.
-  </p>
+    <h3>Can I search inside scanned documents?</h3>
+    <p>LifeNest Docs uses on-device text recognition to make recognized document text searchable. Recognition accuracy depends on scan quality and document content.</p>
 
-  <p>
-    A multi-page document saved as one LifeNest Docs document
-    counts as one document toward this limit.
-  </p>
+    <h3>How do I protect my documents?</h3>
+    <p>Enable App Lock in Settings to require Face ID or your device passcode when accessing LifeNest Docs.</p>
 
-  <h2>What does LifeNest Docs Pro include?</h2>
+    <h3>How do I back up my documents?</h3>
+    <p>Open Settings and use the backup export option to create a ZIP archive. Save it somewhere secure. Compatible LifeNest Docs backups can be restored through the app.</p>
 
-  <p>
-    LifeNest Docs Pro removes the document limit and allows you
-    to organize unlimited documents.
-  </p>
+    <h3>Are backups encrypted?</h3>
+    <p>No. Exported ZIP backups are not password-protected or encrypted by LifeNest Docs. They may contain sensitive documents. Store them securely and avoid sharing them with untrusted parties.</p>
 
-  <p>
-    The lifetime unlock is a one-time
-    <strong>$1.99 purchase</strong> in the United States,
-    subject to the actual price displayed by the App Store.
-    There is no recurring subscription.
-  </p>
+    <h3>What happens if I delete the app?</h3>
+    <p>Deleting the app may permanently remove documents stored locally on your device. Export and safely store a backup before uninstalling or replacing your device.</p>
+  </section>
 
-  <h2>Can I search inside my documents?</h2>
+  <section>
+    <h2>Troubleshooting</h2>
+    <p>If something isn't working correctly:</p>
+    <ol>
+      <li>Update LifeNest Docs to the latest available version.</li>
+      <li>Restart the app and your iPhone.</li>
+      <li>Check camera, notification, and Face ID permissions.</li>
+      <li>Verify that sufficient device storage is available.</li>
+      <li>Contact support if the problem continues.</li>
+    </ol>
+    <p>Do not uninstall the app as a troubleshooting step unless you have confirmed that your documents are safely backed up.</p>
+  </section>
 
-  <p>
-    Yes. LifeNest Docs uses on-device text recognition to make
-    supported scanned and imported documents searchable.
-  </p>
-
-  <p>
-    You can search using document titles, notes, tags, categories,
-    and keywords recognized within the contents of your documents.
-    This makes it possible to locate a document even when the word
-    you're searching for is contained inside the scanned document.
-  </p>
-
-  <h2>Why can't LifeNest Docs find a word in my document?</h2>
-
-  <p>
-    Text recognition is automated and may not recognize every word.
-    Recognition quality can be affected by blurry images, handwriting,
-    unusual fonts, poor lighting, low-resolution scans, or other
-    image-quality issues.
-  </p>
-
-  <p>
-    For best results, scan documents in good lighting and keep the
-    document as flat and clear as possible.
-  </p>
-
-  <h2>How do I restore my Pro purchase?</h2>
-
-  <p>
-    Open LifeNest Docs, go to <strong>Settings</strong>, and select
-    <strong>Restore Purchases</strong>.
-  </p>
-
-  <p>
-    Make sure you're using the Apple Account associated with your
-    original purchase.
-  </p>
-
-  <h2>How do reminders work?</h2>
-
-  <p>
-    When adding or editing a document, you can enter an expiration
-    date and choose when LifeNest Docs should remind you.
-  </p>
-
-  <p>
-    LifeNest Docs can schedule a local notification before the
-    expiration date. Notification permission must be enabled for
-    reminders to appear.
-  </p>
-
-  <h2>How does App Lock work?</h2>
-
-  <p>
-    App Lock can be enabled from Settings. When enabled, LifeNest
-    Docs uses your device's authentication system, such as Face ID,
-    Touch ID, or your device passcode, to protect access to the app.
-  </p>
-
-  <p>
-    LifeNest Docs does not receive or store your biometric data.
-  </p>
-
-  <h2>Does LifeNest Docs upload my documents?</h2>
-
-  <p>
-    LifeNest Docs is designed to store your documents locally on
-    your device. It does not require a LifeNest Docs account or
-    upload your documents to a developer-hosted document-storage
-    server.
-  </p>
-
-  <h2>Can I back up my LifeNest Docs documents?</h2>
-
-  <p>
-    Yes. Open <strong>Settings</strong> and select
-    <strong>Create LifeNest Docs Backup</strong>.
-  </p>
-
-  <p>
-    LifeNest Docs creates a ZIP backup containing your document
-    information and stored PDFs or images. You can then use the
-    iOS share sheet to save the backup to Files, AirDrop it,
-    or send it to another location or service you choose.
-  </p>
-
-  <p>
-    Your backup may contain sensitive personal documents, so keep
-    exported backup files in a secure location.
-  </p>
-
-  <h2>Can I share an individual document?</h2>
-
-  <p>
-    Yes. Open a document and use the available sharing option to
-    send or save its attachment using the iOS share sheet.
-  </p>
-
-  <h2>What happens if I delete a document?</h2>
-
-  <p>
-    Deleting a document from LifeNest Docs removes that document
-    and its locally stored attachment from the application's
-    document storage.
-  </p>
-
-  <p>
-    Keep independent copies of important records before deleting
-    them.
-  </p>
-
-  <h2>What happens if I delete the app?</h2>
-
-  <p>
-    Locally stored LifeNest Docs information may be permanently
-    lost when you delete the application.
-  </p>
-
-  <p>
-    Before deleting LifeNest Docs, create a backup or otherwise
-    export any important documents you need to keep.
-  </p>
-
-  <h2>Face ID or App Lock isn't working. What should I do?</h2>
-
-  <p>
-    Confirm that Face ID, Touch ID, or a device passcode is
-    configured on your device.
-  </p>
-
-  <p>
-    If authentication continues to fail, check your device
-    settings and restart LifeNest Docs.
-  </p>
-
-  <div class="contact">
-
-    <h2>Still Need Help?</h2>
-
-    <p>
-      Contact the developer for technical support,
-      bug reports, or feature suggestions.
-    </p>
-
-    <a class="button"
-       href="mailto:josh.swift.dev@gmail.com?subject=LifeNest%20Docs%20Support">
-      Contact Support
-    </a>
-
-    <p>
-      josh.swift.dev@gmail.com
-    </p>
-
-  </div>
+  <section>
+    <h2>Legal Information</h2>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p><a href="terms.html">Terms of Use</a></p>
+  </section>
 
 </main>
 
 <footer>
-
-  <a href="privacy.html">Privacy</a>
-  <a href="support.html">Support</a>
-  <a href="terms.html">Terms</a>
-
-  <p>&copy; 2026 LifeNest Docs. All rights reserved.</p>
-
+  &copy; 2026 Joshua Marcum. All rights reserved.
 </footer>
 
 </body>
